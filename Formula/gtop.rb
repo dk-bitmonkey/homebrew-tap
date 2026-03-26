@@ -6,22 +6,22 @@ class Gtop < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/dk-bitmonkey/gtop/releases/download/v#{version}/gtop-macos-amd64.tar.gz"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v#{version}/gtop-macos-amd64.tar.gz"
       sha256 "PLACEHOLDER"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/gtop/releases/download/v#{version}/gtop-macos-arm64.tar.gz"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v#{version}/gtop-macos-arm64.tar.gz"
       sha256 "PLACEHOLDER"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dk-bitmonkey/gtop/releases/download/v#{version}/gtop-linux-amd64.tar.gz"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v#{version}/gtop-linux-amd64.tar.gz"
       sha256 "PLACEHOLDER"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/gtop/releases/download/v#{version}/gtop-linux-arm64.tar.gz"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v#{version}/gtop-linux-arm64.tar.gz"
       sha256 "PLACEHOLDER"
     end
   end
