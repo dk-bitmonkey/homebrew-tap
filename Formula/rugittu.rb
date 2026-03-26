@@ -1,28 +1,28 @@
 class Rugittu < Formula
   desc "Terminal UI Git client"
   homepage "https://github.com/dk-bitmonkey/rugittu"
-  version "0.5.2"
+  version "0.5.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.2/rugittu-macos-amd64.tar.gz"
-      sha256 "878b45d4279b6b85c7aea2d1eb96d12f4edc572e5e3692947df499968d67ee71"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.3/rugittu-macos-amd64.tar.gz"
+      sha256 "52f25ed935c1c3ca34a02e6bb010ad65026c77965fcbc9e85e822e081bff1e5c"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.2/rugittu-macos-arm64.tar.gz"
-      sha256 "da00e8c51f6f6ed3a0d71bda1ec363953845635a4cdcf7a16d43af16099e38c5"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.3/rugittu-macos-arm64.tar.gz"
+      sha256 "d08321b61ae8f778b5e9e238684ab71865295b3628864dcdaabb5ec1313c9199"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.2/rugittu-linux-amd64.tar.gz"
-      sha256 "e855d3c9b5d87f41ade38410e8f611ab7b483c395e246f6235719c796d5281f2"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.3/rugittu-linux-amd64.tar.gz"
+      sha256 "c84d8b6312d0cf117ae14c82cff7506b6d56f543227bed0a755906e82f8e74a2"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.2/rugittu-linux-arm64.tar.gz"
-      sha256 "bc63047c8ab718bb1af1f4dd32169da0a754d305745676cae27e59ce0e397cbf"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.5.3/rugittu-linux-arm64.tar.gz"
+      sha256 "4145ebea100116030701d2a156268dcb6b1b4e185fe2a9ab83ce03a9d84d9354"
     end
   end
 
