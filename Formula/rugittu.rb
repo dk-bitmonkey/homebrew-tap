@@ -7,22 +7,22 @@ class Rugittu < Formula
   on_macos do
     on_intel do
       url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.6.0/rugittu-macos-amd64.tar.gz"
-      sha256 "08c06a997779b6e7a952a9b2b572918fc838935a3c069f4ea83e69f5adbcf506"
+      sha256 "a65a4b82fd6889a29472a3c29ec0f1671085701055dbd0a82d298c63b0fe5b7b"
     end
     on_arm do
       url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.6.0/rugittu-macos-arm64.tar.gz"
-      sha256 "1c3c81c8cef50066ae76ad8900f0bd7fd8dc2869833c680ea384a2bed37e45f2"
+      sha256 "a9fdc2d3440915f3eb6822cb4226c18c1622ba1c5c2b520e2e40dbbac581f635"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.6.0/rugittu-linux-amd64.tar.gz"
-      sha256 "51ee16ad7f8453532b2ebe33da5aff3bd366d8c832dcb8c7a3a71cd2550d68de"
+      sha256 "683106fc8c5ef6781f4ec73c3ba7111408d55e5104c4ace9d86ec2a4a33ccc6a"
     end
     on_arm do
       url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/rugittu-v0.6.0/rugittu-linux-arm64.tar.gz"
-      sha256 "84cf78764b6d647a692a99bbced9d8a9e7652bc14ebc6530b1e9de4459ab466e"
+      sha256 "fa0300d9bf4ee738d917a8b2339da7f30f05ecdc8d5dec0ca74a114950e7b118"
     end
   end
 
