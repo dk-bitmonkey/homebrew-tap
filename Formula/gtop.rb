@@ -1,28 +1,28 @@
 class Gtop < Formula
   desc "A terminal system monitor with first-class GPU support"
   homepage "https://github.com/dk-bitmonkey/gtop"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.2.2/gtop-macos-amd64.tar.gz"
-      sha256 "3f5a887e37a4c7230093e7320f67539c675eb43654d566ce568a30087f6b73ee"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.3.0/gtop-macos-amd64.tar.gz"
+      sha256 "f334ea92e934214b6e952e47abf434261b4afb2961452d0bd19059c8d47037e9"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.2.2/gtop-macos-arm64.tar.gz"
-      sha256 "ba08f43087c875141da9f4a2ba8847bc4628c5754e149c4df27a54d75a01f0d4"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.3.0/gtop-macos-arm64.tar.gz"
+      sha256 "202ed8a8bb1905cc956a84de5e0721f1f9091f2d7b5e592adf8df5e3dec1342c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.2.2/gtop-linux-amd64.tar.gz"
-      sha256 "0ab1e87a43570b87b49b8a6280c8801e400f59e0346ebe8c82b420f0feb58d3c"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.3.0/gtop-linux-amd64.tar.gz"
+      sha256 "86e246f47e886d2a589ce101575860f5007e2a8f92c5c1234773f15fdc3602be"
     end
     on_arm do
-      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.2.2/gtop-linux-arm64.tar.gz"
-      sha256 "9c37930d41368be31793c6643bc8a67e95e85450cce653fc3277f629f3ddeac2"
+      url "https://github.com/dk-bitmonkey/homebrew-tap/releases/download/gtop-v0.3.0/gtop-linux-arm64.tar.gz"
+      sha256 "f58df98fc0111b1b15502e0b9d19546fd86f3b805cec95d2b9afe8d5b9d73b38"
     end
   end
 
